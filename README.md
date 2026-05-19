@@ -47,7 +47,7 @@ sudo ./usrp_burn_mb_eeprom --args="type=b200" --values="product=1"
 Find `usrp_burn_mb_eeprom` on your system:
 
 ```bash
-find / -name usrp_burn_mb_eeprom 2>/dev/null
+find /usr /usr/local -name usrp_burn_mb_eeprom 2>/dev/null
 ```
 
 Show current UHD version and image path information:
